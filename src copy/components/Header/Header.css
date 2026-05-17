@@ -1,0 +1,38 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 20px 40px;
+    background-color: rgb(57, 35, 2);
+    box-shadow: 0 2px 4px burlywood(0,0,0,0.1);
+}
+
+.header_nav-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+
+/* .header_nav-link {
+    color: bisque;
+    list-style: none;
+    text-align: center;
+} */
+
+.header_nav-link-item {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+
+.header_nav-link-item:hover {
+    color: rgb(206, 159, 93);
+}
